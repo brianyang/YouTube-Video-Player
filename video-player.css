@@ -1,0 +1,11 @@
+#seek_video_slider {
+    border: 1px solid #f0f;
+    width: 500px;
+    height: 10px;
+}
+
+#knob {
+    width: 10px;
+    height: 10px;
+    background: #f00;
+}
