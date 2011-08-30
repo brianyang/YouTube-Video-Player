@@ -36,16 +36,31 @@ Build out elements to define video play controls
 
         <p>Bytes Total: <span id="bytesTotal">0</span> | Start Bytes: <span id="startBytes">0</span> | Bytes Loaded: <span id="bytesLoaded">0</span></p>
 
+Show video play time and progress meter data
+
+### Seek through video 
+
       <p class=seek-demo><a href="#">jump to 2:00</a></p>
       <p class=seek-demo2><a href="#">jump to 4:00</a></p>
 
+Create links to skip to designated point in video
+
+### Video progress
       <div id=seek_video_slider>
-          <div draggable=true id="knob"></div>
+          <div id="knob"></div>
       </div>
 
-      </div>
+Generate video play progress holder
 
-Stub out video data debug and playback stats
+### Load iframe
+
+      var tag = document.createElement('script');
+      tag.src = "http://www.youtube.com/player_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+This code loads the IFrame Player API code asynchronously.
+
 
 
 
