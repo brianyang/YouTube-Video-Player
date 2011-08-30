@@ -2,6 +2,7 @@
     
 <h2>Create player holder and chrome</h2>
 <pre>
+  <code>
     <div id="player"></div>
     <div id="player-controls">
         <ul>
@@ -9,10 +10,12 @@
             <li class="pause"><a href="#">pause</a></li>
         </ul>
     </div>
+  </code>
 </pre>
 
 <h2>create video play indicator and debug info</h2>
 <pre>
+  <code>
   <div id="videoInfo">
         <p>Current Time: <span id="videoCurrentTime">0</span> | Duration: <span id="videoDuration">0</span></p>
 
@@ -25,6 +28,7 @@
           <div id="knob"></div>
       </div>
   </div>
+  </code>
 </pre>
   </body>
 </html>
