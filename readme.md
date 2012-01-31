@@ -14,10 +14,10 @@ Features
 
     <div id="player"></div>
 
-Here we create an element to house the video we are playing. 
+Here we create an element to house the video we are playing.
 
 
-### Player Controls 
+### Player Controls
 
     <div id="player-controls">
         <ul>
@@ -38,7 +38,7 @@ Build out elements to define video play controls
 
 Show video play time and progress meter data
 
-### Seek through video 
+### Seek through video
 
       <p class=seek-demo><a href="#">jump to 2:00</a></p>
       <p class=seek-demo2><a href="#">jump to 4:00</a></p>
@@ -104,7 +104,7 @@ This function creates an <iframe> (and YouTube player) after the API code downlo
                 $('#knob').css('margin-left', '' + updatedVideoLen + '%');
             }
         }
-            
+
 Update player details and show in DOM
 
 
@@ -179,8 +179,8 @@ Contributing
 ------------
 
 1. Fork it.
-2. Create a branch (`git checkout -b my_video_updates`)
+2. Create a branch (`git checkout -b git@github.com:brianyang/YouTube-Video-Player.git`)
 3. Commit your changes (`git commit -am "added code"`)
-4. Push to the branch (`git push origin my_video_updates`)
+4. Push to the branch (`git push origin git@github.com:brianyang/YouTube-Video-Player.git`)
 5. Create an Issue with a link to your branch
 
